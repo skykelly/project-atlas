@@ -6,6 +6,8 @@
 
 _조사 범위: 2026-01-01~2026-10-06. 원문 확인일: 2026-10-06._
 
+이 문서는 플랫폼 선택·데이터/접점 경쟁·공통 운영 구조를 비교한다. 실제 질문-근거 설계는 [G-1](G-1_ai_search_geo.md), 기술 접근 점검은 [G-3](G-3_crawlers_content_access.md), 거래 프로토콜·승인·복구는 [G-5](G-5_agentic_commerce.md)에 모아 관리한다.
+
 ## 주요 플랫폼 방향 비교
 
 | 플랫폼 | 공식 발표·문서에서 확인한 방향 | 기업 참여 경로 | 현황을 과장하지 않기 위한 경계 |
@@ -32,7 +34,7 @@ Google 개인 연결, Amazon 대화·구매 이력, Perplexity 선호 기억은 
 
 ### 3. 실행: 발견과 거래, 도구 연결과 브랜드 경험을 분리한다
 
-피드는 제품 정보 전달, MCP는 지원 도구 호출 연결, ACP·UCP는 commerce 상호작용, AP2는 결제 권한 연결의 역할을 갖는다. 스키마 존재·앱 설치·웹 색인은 각각 다른 자격이며 하나를 구현해 모든 플랫폼 거래가 열리지는 않는다. [현행 ChatGPT Plugins](evidence/OAI-PLUGINS-20261006-001.md)도 외부 checkout과 선정 beta를 구분한다.
+선택한 플랫폼에 따라 데이터 전달·도구 연결·브랜드 UI·거래를 따로 검토한다. 스키마 존재·앱 설치·웹 색인은 각각 다른 자격이며 하나를 구현해 모든 플랫폼 거래가 열리지는 않는다. 프로토콜별 역할·국가 자격·실행 책임은 [G-5 거래 설계](G-5_agentic_commerce.md), [현행 ChatGPT Plugins](evidence/OAI-PLUGINS-20261006-001.md)의 외부 checkout·선정 beta 조건을 따른다.
 
 ## Brand Answer Engine·AI Chat 실행 모델 — 적용 가설
 
@@ -56,4 +58,3 @@ Google 개인 연결, Amazon 대화·구매 이력, Perplexity 선호 기억은 
 ## 다음 조사
 
 국내 네이버·해외 Google/ChatGPT의 실제 consumer 화면, Plugins 심사·merchant 자격·한국 판매 조건, Meta와 지역 commerce 플랫폼을 순차적으로 검증한다.
-
