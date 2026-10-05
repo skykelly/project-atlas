@@ -34,11 +34,13 @@ G-1·G-2·G-3·G-4는 초기 범위·연구 질문 중심 구성을 걷어내고
 
 ## 2026년 시장 재조사 — 10월 6일 기준
 
-2026-01-01~2026-10-06 공개 발표·연구·현행 문서를 다시 조사해 29개 근거 문서를 확보했고, 이후 중복을 통합해 **현재 7개 운영 카테고리**로 정리했다. 처음 읽을 때는 [시장 규모·소비자 행동·수치 해석](G-7_market_adoption.md) → [10개 플랫폼 전략 비교](G-6_platform_ecosystems.md) → 관심 카테고리 순서를 권장한다.
+2026-01-01~2026-10-06 공개 발표·연구·현행 문서를 다시 조사해 30개 근거 문서를 확보했고, 이후 중복을 통합해 **현재 7개 운영 카테고리**로 정리했다. 처음 읽을 때는 [시장 규모·소비자 행동·수치 해석](G-7_market_adoption.md) → [10개 플랫폼 전략 비교](G-6_platform_ecosystems.md) → 관심 카테고리 순서를 권장한다.
 
 Google·OpenAI·Microsoft·Amazon·Perplexity·Anthropic·네이버·Meta·Alibaba·JD.com의 접점과 참여 방식을 비교한다. G-6은 고객의 요구 파악·제품 선택·거래 실행을 따라 플랫폼 전략을 설명하고, G-7은 이용 규모·외부 유입·구매 전환이 어떻게 연결되는지 해석한다. Similarweb 웹 추정, Statcounter의 9월 세계·한국 referral, Adobe 미국 관측·연말 전망, Opollo B2B 문의 연구는 각각의 분모와 기간으로 읽는다.
 
 Meta의 Business Agent·Muse, Alibaba의 Taobao catalog 연결, JD.com의 판매자·물류 전략, 네이버의 6월 선제 대화·9월 배송 추천을 공식 자료로 보강했다. ChatGPT 피드 신청·Plugins 심사와 한국 Google AI Mode 지원도 공개 조건을 확인했다. 계정별 제공·판매자 승인·실제 거래 시험은 공개 문서 확인과 구분한다.
+
+G-4는 거래 경로·참여 자격·운영 책임과 가전 실행 조건을, G-5는 광고 형식·한국 구매 경로·브랜드 상담·귀속/증분 비용을 표와 설명으로 정리했다. 한국 법인의 ChatGPT Ads Manager 셀프서비스 가능을 현행 도움말로 확인했고, 초기 미국 광고 화면 연구는 현재 국내 효과와 구분한다.
 
 ## 출발점과 범위
 
@@ -78,6 +80,7 @@ Meta의 Business Agent·Muse, Alibaba의 Taobao catalog 연결, JD.com의 판매
 | [Meta Business Agent·Muse](evidence/META-AGENT-20261006-001.md) | G-6 | 2026-06·09, 고객 상담·개인/사업자 과업 구분 |
 | [Alibaba Qwen·Taobao 연결](evidence/ALI-COMMERCE-20261006-001.md) | G-6 | 2026-01·05, 중국 시험·전체 catalog 연결 |
 | [JD.com 판매자·물류·기기 전략](evidence/JD-ECOSYSTEM-20261006-001.md) | G-6 | 2026-05-19, 발표·전망 구분 |
+| [독립 ChatGPT 초기 광고 화면 audit](evidence/RES-ADS-AUDIT-20261006-001.md) | G-5 | 2026-08-05 preprint, 미국 초기 모의 계정·본문/초록 집계 차이 |
 | [Statcounter 세계·한국 AI referral](evidence/STAT-REFERRAL-20261006-001.md) | G-7 | 2026-09 관측, 10-06 확인·수정 가능 |
 
 G-1은 통합한 탐색·fan-out 내용을 Google 구조·Bing 의도·독립 UI/API 근거에 연결한다. 주 카테고리는 관리 위치이며 여러 카테고리에서 재사용할 수 있다.
