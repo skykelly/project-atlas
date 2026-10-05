@@ -6,7 +6,7 @@
 
 - [AI_SalesMarketing](AI_SalesMarketing/README.md): 영업·마케팅 AI 활용 사례. 10개 카테고리와 117개 seed 사례 초안으로 시작.
 - [AI_IndustryTrend](AI_IndustryTrend/README.md): AI 업계 전반 동향, 추후 조사.
-- [AI_GEO_AIcommerce](AI_GEO_AIcommerce/README.md): GEO & AI Commerce. AI 검색·탐색·크롤러·측정·거래의 5개 조사 카테고리.
+- [AI_GEO_AIcommerce](AI_GEO_AIcommerce/README.md): GEO & AI Commerce. 2026년 시장·7개 플랫폼과 검색·탐색·접근·측정·거래·광고·생태계·시장 행동의 8개 조사 카테고리.
 - [AI_LGgroup](AI_LGgroup/README.md): LG그룹 AI 활용 사례, 추후 조사.
 
 ## 구조

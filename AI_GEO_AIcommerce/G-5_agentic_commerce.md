@@ -43,6 +43,29 @@ _공식 자료 확인일: 2026-10-06_
 
 한국 서비스에 새 결제 연동을 적용하거나 실제 주문 테스트를 수행한 것은 아니다.
 
+## 2026년 chronology로 교정한 거래 방향
+
+[OpenAI의 03-24 발표](evidence/OAI-DISCOVERY-20261006-001.md)는 초기 Instant Checkout의 유연성 한계를 인정하고 상품 발견·판매자 자체 checkout으로 중심을 옮겼다. 따라서 기존 기술 문서의 승인 파트너 구현 설명을 전체 ChatGPT 판매자의 표준 거래 경로로 해석하지 않는다. [Plugins 문서](evidence/OAI-PLUGINS-20261006-001.md)도 일반 외부 checkout과 선정 marketplace embedded beta를 나눈다.
+
+| 경로·근거 | 발견→거래 연결 | 남는 제약·책임 |
+|---|---|---|
+| OpenAI ACP·판매자 checkout | 피드·비교·인앱 브라우저·브랜드 앱 | 발견/앱/결제 승인 분리, 판매자 이행 |
+| [Google UCP·Cart](evidence/GOO-UCP-20261006-001.md) | 여러 판매자 cart·Google 결제 또는 cart transfer | 발표·미국 제공·후속 국가 구분 |
+| [Microsoft Copilot](evidence/MS-COMMERCE-20261006-001.md) | catalog·checkout·계정/로열티 | 미국 초기 제공·판매자 관계 유지 |
+| [Perplexity Instant Buy](evidence/PER-COMMERCE-20261006-001.md) | 적격 상품 카드·저장 정보·판매자 주문 | 미국·적격 판매자·지원 이관 |
+| [Amazon Alexa shopping](evidence/AMZ-COMMERCE-20261006-001.md) | 구매 이력·조건부 구매·반복 주문 | 미국 기능·권한·merchant별 이행 |
+
+### 프로토콜 역할
+
+| 이름 | 역할·확인 범위 | 혼동하지 않을 것 |
+|---|---|---|
+| ACP | OpenAI·Stripe 출발, 2026 발견까지 확장 | Google UCP와 이름·시장 자격이 다름 |
+| UCP | Google·Shopify 축 commerce 상호운용 | 공개 표준과 특정 플랫폼 상용 지원은 별개 |
+| MCP | 에이전트와 지원 도구 연결 | 자체 구매·결제 자격을 부여하지 않음 |
+| AP2 | 결제 권한·조건·기록의 검증 | UCP 전체 catalog·checkout을 대체하지 않음 |
+
+**권장 실행 순서:** 정확한 catalog→최신 가격/재고→설치/배송 조건→고객 승인→주문/사후관리. 내장 결제 확대보다 국가·자격·사용자 경험이 먼저다. zero-click 답변, 외부 발견 뒤 자사 checkout, 플랫폼 안 구매 완료를 각각 측정한다.
+
 ## 범위
 
 AI가 탐색·비교·추천·장바구니·주문·결제·사후관리를 돕거나 실행하는 거래 흐름의 변화를 조사한다. 서비스가 에이전트라고 부르는지보다 실제로 수행하는 단계와 권한을 확인한다.
