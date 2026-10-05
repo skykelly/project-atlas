@@ -1,0 +1,26 @@
+{
+  "captured_on": "2026-10-05",
+  "topic": "AI_SalesMarketing",
+  "source_thread_title": "블로그 카테고리 계획 수립",
+  "source_thread_id": "6abd8597-cec8-83ee-a6d0-8497df770e80",
+  "files": [
+    {
+      "name": "cases_updated_all.json",
+      "original_path": "cases_updated_all.json",
+      "path": "data/AI_SalesMarketing/seed/cases_updated_all.json",
+      "sha256": "bb8bea92fabaabbe7066e892b7f01df285c279945c041226513f1e0d59da8884"
+    },
+    {
+      "name": "cases_update_report.md",
+      "original_path": "cases_update_report.md",
+      "path": "data/AI_SalesMarketing/seed/cases_update_report.md",
+      "sha256": "d2de193c79d71df1a9c06766e27bbb25c0b86c9c508a6e042e1f1f24e0ee48ad"
+    },
+    {
+      "name": "ax_cases_atlas.html",
+      "original_path": "ax_cases_atlas.html",
+      "path": "data/AI_SalesMarketing/seed/ax_cases_atlas.html",
+      "sha256": "ce6b64c9bfac75e787a9f5ee0a07d6f0ff3e5a1c57a9d18ca4e5b8db9cd3c5d0"
+    }
+  ]
+}
