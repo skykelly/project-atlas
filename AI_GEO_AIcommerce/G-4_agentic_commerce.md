@@ -1,11 +1,11 @@
-# G-5. Agentic Commerce·Zero-click Shopping
+# G-4. Agentic Commerce·Zero-click Shopping
 
-[목차](README.md) · [발견·탐색](G-1_ai_search_geo.md) · [광고](G-6_ai_ads_monetization.md)
+[목차](README.md) · [발견·탐색](G-1_ai_search_geo.md) · [광고](G-5_ai_ads_monetization.md)
 
 > **핵심 결론:** 2026년 AI commerce는 상품 발견, 판매자 checkout, 플랫폼 내 거래, 조건부 구매가 함께 존재한다. 가전은 설치·배송·옵션·서비스까지 검증해야 하므로, 내장 결제를 먼저 붙이기보다 실제 주문 가능한 조건과 판매자 책임을 설계해야 한다.
 
 _조사 창: 2026-01-01~2026-10-06. 근거 확인일: 2026-10-06._
-이 문서는 **상품 정보→주문→결제→사후관리의 실행 조건**을 다룬다. 플랫폼 전체 전략은 [G-7](G-7_platform_ecosystems.md), 광고 제안과 비용은 [G-6](G-6_ai_ads_monetization.md), 성과 정의는 [G-4](G-4_measurement.md)에서 관리한다.
+이 문서는 **상품 정보→주문→결제→사후관리의 실행 조건**을 다룬다. 플랫폼 전체 전략은 [G-6](G-6_platform_ecosystems.md), 광고 제안과 비용은 [G-5](G-5_ai_ads_monetization.md), 성과 정의는 [G-3](G-3_measurement.md)에서 관리한다.
 
 ## 2026년 거래 모델의 변화
 

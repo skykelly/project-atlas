@@ -1,12 +1,12 @@
-# G-7. AI 플랫폼 생태계·개인화·앱·에이전트 전략
+# G-6. AI 플랫폼 생태계·개인화·앱·에이전트 전략
 
-[목차](README.md) · [광고](G-6_ai_ads_monetization.md) · [시장 개관](G-8_market_adoption.md)
+[목차](README.md) · [광고](G-5_ai_ads_monetization.md) · [시장 개관](G-7_market_adoption.md)
 
 > **핵심 결론:** AI 검색·쇼핑의 경쟁 단위는 모델 정확도에 더해 사용자 맥락·데이터·실행 접점이다. 여러 플랫폼에 하나의 정보 기반을 제공하면서 국가·브랜드 UX·거래 조건은 따로 설계해야 한다.
 
 _조사 범위: 2026-01-01~2026-10-06. 원문 확인일: 2026-10-06._
 
-이 문서는 플랫폼 선택·데이터/접점 경쟁·공통 운영 구조를 비교한다. 실제 질문-근거 설계는 [G-1](G-1_ai_search_geo.md), 기술 접근 점검은 [G-3](G-3_crawlers_content_access.md), 거래 프로토콜·승인·복구는 [G-5](G-5_agentic_commerce.md)에 모아 관리한다.
+이 문서는 플랫폼 선택·데이터/접점 경쟁·공통 운영 구조를 비교한다. 실제 질문-근거 설계는 [G-1](G-1_ai_search_geo.md), 기술 접근 점검은 [G-2](G-2_crawlers_content_access.md), 거래 프로토콜·승인·복구는 [G-4](G-4_agentic_commerce.md)에 모아 관리한다.
 
 ## 주요 플랫폼 방향 비교
 
@@ -26,7 +26,7 @@ _조사 범위: 2026-01-01~2026-10-06. 원문 확인일: 2026-10-06._
 
 ### 1. 유통 규모: 검색 내장, 독립 앱, marketplace는 다른 시장이다
 
-Google AI Overviews·AI Mode, Gemini app, ChatGPT weekly 이용자, Similarweb 도메인 방문은 각각 다른 집계다. [시장 개관](G-8_market_adoption.md)의 수치를 이용자 순위로 합치지 않는다. 검색·앱 배포 기반이 크더라도 우리 고객의 제품 질문·구매를 얼마나 담당하는지는 별도 확인해야 한다.
+Google AI Overviews·AI Mode, Gemini app, ChatGPT weekly 이용자, Similarweb 도메인 방문은 각각 다른 집계다. [시장 개관](G-7_market_adoption.md)의 수치를 이용자 순위로 합치지 않는다. 검색·앱 배포 기반이 크더라도 우리 고객의 제품 질문·구매를 얼마나 담당하는지는 별도 확인해야 한다.
 
 ### 2. 맥락: 같은 질문도 연결 데이터와 계정에 따라 달라진다
 
@@ -34,7 +34,7 @@ Google 개인 연결, Amazon 대화·구매 이력, Perplexity 선호 기억은 
 
 ### 3. 실행: 발견과 거래, 도구 연결과 브랜드 경험을 분리한다
 
-선택한 플랫폼에 따라 데이터 전달·도구 연결·브랜드 UI·거래를 따로 검토한다. 스키마 존재·앱 설치·웹 색인은 각각 다른 자격이며 하나를 구현해 모든 플랫폼 거래가 열리지는 않는다. 프로토콜별 역할·국가 자격·실행 책임은 [G-5 거래 설계](G-5_agentic_commerce.md), [현행 ChatGPT Plugins](evidence/OAI-PLUGINS-20261006-001.md)의 외부 checkout·선정 beta 조건을 따른다.
+선택한 플랫폼에 따라 데이터 전달·도구 연결·브랜드 UI·거래를 따로 검토한다. 스키마 존재·앱 설치·웹 색인은 각각 다른 자격이며 하나를 구현해 모든 플랫폼 거래가 열리지는 않는다. 프로토콜별 역할·국가 자격·실행 책임은 [G-4 거래 설계](G-4_agentic_commerce.md), [현행 ChatGPT Plugins](evidence/OAI-PLUGINS-20261006-001.md)의 외부 checkout·선정 beta 조건을 따른다.
 
 ## Brand Answer Engine·AI Chat 실행 모델 — 적용 가설
 

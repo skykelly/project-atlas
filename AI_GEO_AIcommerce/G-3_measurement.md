@@ -1,11 +1,11 @@
-# G-4. AI 유입·성과 측정·벤치마크
+# G-3. AI 유입·성과 측정·벤치마크
 
-[목차](README.md) · [발견·탐색](G-1_ai_search_geo.md) · [Commerce](G-5_agentic_commerce.md)
+[목차](README.md) · [발견·탐색](G-1_ai_search_geo.md) · [Commerce](G-4_agentic_commerce.md)
 
 > **핵심 결론:** AI 성과는 질문별 발견 품질, 플랫폼 노출·인용, 식별된 방문, 구매·고객 가치로 연결해 측정한다. 서로 다른 분모를 합산하지 않고 귀속 성과와 증분 효과를 분리해야 한다.
 
 _조사 창: 2026-01-01~2026-10-06. 근거 확인일: 2026-10-06._
-이 문서는 **측정 정의·도구·검증 설계**를 관리한다. 전체 시장 규모·연표는 [G-8](G-8_market_adoption.md), 광고 상품·과금 구조는 [G-6](G-6_ai_ads_monetization.md)에 둔다. 내부 AI referer MAU 실측값은 공개하지 않는다.
+이 문서는 **측정 정의·도구·검증 설계**를 관리한다. 전체 시장 규모·연표는 [G-7](G-7_market_adoption.md), 광고 상품·과금 구조는 [G-5](G-5_ai_ads_monetization.md)에 둔다. 내부 AI referer MAU 실측값은 공개하지 않는다.
 
 ## 2026년 측정 수단은 어디까지 왔는가?
 

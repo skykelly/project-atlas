@@ -1,12 +1,12 @@
-# G-6. AI 광고·수익화·브랜드 상담
+# G-5. AI 광고·수익화·브랜드 상담
 
-[목차](README.md) · [Commerce](G-5_agentic_commerce.md) · [플랫폼 전략](G-7_platform_ecosystems.md)
+[목차](README.md) · [Commerce](G-4_agentic_commerce.md) · [플랫폼 전략](G-6_platform_ecosystems.md)
 
 > **핵심 결론:** 자연 인용, 유료 추천, 브랜드 상담은 별도 고객 접점이다. 2026년에는 AI 광고가 운영 채널로 확대됐지만 비용·효과·국가 자격을 일반화할 공통 benchmark는 아직 부족하다.
 
 _조사 범위: 2026-01-01~2026-10-06. 원문 확인일: 2026-10-06._
 
-이 문서는 광고 형식·과금·유료 상담·캠페인 운영을 관리한다. 자연 발견 콘텐츠는 [G-1](G-1_ai_search_geo.md), 거래 자격·주문 책임은 [G-5](G-5_agentic_commerce.md), 지표·benchmark·증분 검증 방법은 [G-4](G-4_measurement.md)를 기준으로 연결한다.
+이 문서는 광고 형식·과금·유료 상담·캠페인 운영을 관리한다. 자연 발견 콘텐츠는 [G-1](G-1_ai_search_geo.md), 거래 자격·주문 책임은 [G-4](G-4_agentic_commerce.md), 지표·benchmark·증분 검증 방법은 [G-3](G-3_measurement.md)를 기준으로 연결한다.
 
 ## 2026년 시장의 변화
 

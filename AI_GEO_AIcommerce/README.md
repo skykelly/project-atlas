@@ -9,32 +9,32 @@ AI가 고객의 질문을 해석하고 정보를 찾으며 브랜드·제품을 
 | 코드 | 주제 | 핵심 질문 |
 |---|---|---|
 | G-1 | [AI Search·GEO·브랜드 발견·탐색 경로](G-1_ai_search_geo.md) | 고객 질문을 어떤 근거로 분해하고 정확한 모델의 발견·비교·추천으로 연결하는가? |
-| G-3 | [AI 크롤러·콘텐츠 접근·llms.txt](G-3_crawlers_content_access.md) | AI가 읽을 수 있는 범위와 기업이 통제할 수 있는 범위는 무엇인가? |
-| G-4 | [AI 유입·성과 측정·벤치마크](G-4_measurement.md) | AI의 발견·추천이 실제 방문·전환·고객 가치로 연결되는가? |
-| G-5 | [Agentic Commerce·Zero-click Shopping](G-5_agentic_commerce.md) | 탐색·비교·추천·주문·결제·사후관리 중 무엇이 에이전트로 이동하는가? |
-| G-6 | [AI 광고·수익화·브랜드 상담](G-6_ai_ads_monetization.md) | 자연 답변·유료 추천·상담과 비용·증분 성과는 어떻게 구분하는가? |
-| G-7 | [플랫폼 생태계·개인화·앱·에이전트](G-7_platform_ecosystems.md) | 주요 플랫폼은 어떤 데이터·접점·참여 경로로 경쟁하는가? |
-| G-8 | [2026년 시장 규모·소비자 행동](G-8_market_adoption.md) | 1월부터 현재까지 무엇이 바뀌었고 수치는 어떤 시장을 측정했는가? |
+| G-2 | [AI 크롤러·콘텐츠 접근·llms.txt](G-2_crawlers_content_access.md) | AI가 읽을 수 있는 범위와 기업이 통제할 수 있는 범위는 무엇인가? |
+| G-3 | [AI 유입·성과 측정·벤치마크](G-3_measurement.md) | AI의 발견·추천이 실제 방문·전환·고객 가치로 연결되는가? |
+| G-4 | [Agentic Commerce·Zero-click Shopping](G-4_agentic_commerce.md) | 탐색·비교·추천·주문·결제·사후관리 중 무엇이 에이전트로 이동하는가? |
+| G-5 | [AI 광고·수익화·브랜드 상담](G-5_ai_ads_monetization.md) | 자연 답변·유료 추천·상담과 비용·증분 성과는 어떻게 구분하는가? |
+| G-6 | [플랫폼 생태계·개인화·앱·에이전트](G-6_platform_ecosystems.md) | 주요 플랫폼은 어떤 데이터·접점·참여 경로로 경쟁하는가? |
+| G-7 | [2026년 시장 규모·소비자 행동](G-7_market_adoption.md) | 1월부터 현재까지 무엇이 바뀌었고 수치는 어떤 시장을 측정했는가? |
 
 ### 통합 판단과 문서의 역할
 
-현재 운영 카테고리는 **7개(G-1·G-3~G-8)**다. 2026-10-06 본문 개편에서 G-2의 탐색·query fan-out을 G-1에 통합했다. 질문 분해는 발견·추천 콘텐츠 설계의 일부로 중복이 컸으며 독립 카테고리로 유지할 만큼 별도 시장·실행 책임이 나뉘지 않았다. [G-2 기존 경로](G-2_query_fanout.md)는 통합 안내로 남겨 과거 링크를 유지한다.
+현재 운영 카테고리는 **G-1~G-6의 7개**다. Query fan-out은 고객 질문에 필요한 근거를 탐색하는 방식이므로 G-1의 발견·추천 콘텐츠 설계에 통합했다. 별도 탐색 카테고리와 이동 안내 파일은 삭제하고 전체 번호를 연속으로 정리했다.
 
 | 역할 | 관리 문서 | 구체적인 산출물·통합/유지 이유 |
 |---|---|---|
-| 발견·추천의 정보 설계 | G-1, 기존 G-2 통합 | 질문-근거 대응표·정확한 모델 추천·콘텐츠 개선·반복 관찰 |
-| 기술 접근·정보 전달 | G-3 유지 | 봇 목적별 정책·가독성·웹/피드 정합성·갱신 지연, 콘텐츠 설계와 책임이 다름 |
-| 성과 판정·검증 | G-4 유지 | 도구/분모·지표 사전·귀속/증분·UI/API 실험, 시장 현황과 평가 방법이 다름 |
-| 실제 거래 실행 | G-5 유지 | 자격·피드·견적·승인·주문·설치·복구, 플랫폼 전략과 운영 조건이 다름 |
-| 유료 고객 접점 | G-6 | 광고 형식·과금·유료 상담·캠페인 |
-| 플랫폼 선택·공통 구조 | G-7 | 데이터/접점 경쟁·참여 경로·운영 연결 |
-| 시장 배경·시간 흐름 | G-8 | 규모·소비자 행동·주요 연표·첨부 주장 판정 |
+| 발견·추천의 정보 설계 | G-1 | 질문-근거 대응표·정확한 모델 추천·콘텐츠 개선·반복 관찰 |
+| 기술 접근·정보 전달 | G-2 | 봇 목적별 정책·가독성·웹/피드 정합성·갱신 지연, 콘텐츠 설계와 책임이 다름 |
+| 성과 판정·검증 | G-3 | 도구/분모·지표 사전·귀속/증분·UI/API 실험, 시장 현황과 평가 방법이 다름 |
+| 실제 거래 실행 | G-4 | 자격·피드·견적·승인·주문·설치·복구, 플랫폼 전략과 운영 조건이 다름 |
+| 유료 고객 접점 | G-5 | 광고 형식·과금·유료 상담·캠페인 |
+| 플랫폼 선택·공통 구조 | G-6 | 데이터/접점 경쟁·참여 경로·운영 연결 |
+| 시장 배경·시간 흐름 | G-7 | 규모·소비자 행동·주요 연표·첨부 주장 판정 |
 
-G-1·G-3·G-4·G-5는 초기 범위·연구 질문 중심 구성을 걷어내고, 2026 변화·수치/조건·실제 실패 유형·실행 사례·판정 지표로 전면 재구성했다. 수치 원문은 기존 단일 evidence에서 관리하고 카테고리에서는 해당 과제의 의미를 비교한다.
+G-1·G-2·G-3·G-4는 초기 범위·연구 질문 중심 구성을 걷어내고, 2026 변화·수치/조건·실제 실패 유형·실행 사례·판정 지표로 전면 재구성했다. 수치 원문은 기존 단일 evidence에서 관리하고 카테고리에서는 해당 과제의 의미를 비교한다.
 
 ## 2026년 시장 재조사 — 10월 6일 기준
 
-2026-01-01~2026-10-06 공개 발표·연구·현행 문서를 다시 조사해 25개 근거 문서를 확보했고, 이후 중복을 통합해 **현재 7개 운영 카테고리**로 정리했다. 처음 읽을 때는 [시장 개관·수치·연표·첨부 검증](G-8_market_adoption.md) → [7개 플랫폼 전략 비교](G-7_platform_ecosystems.md) → 관심 카테고리 순서를 권장한다.
+2026-01-01~2026-10-06 공개 발표·연구·현행 문서를 다시 조사해 25개 근거 문서를 확보했고, 이후 중복을 통합해 **현재 7개 운영 카테고리**로 정리했다. 처음 읽을 때는 [시장 개관·수치·연표·첨부 검증](G-7_market_adoption.md) → [7개 플랫폼 전략 비교](G-6_platform_ecosystems.md) → 관심 카테고리 순서를 권장한다.
 
 Google·OpenAI·Microsoft·Amazon·Perplexity·Anthropic·네이버를 비교했다. 시장 규모는 Similarweb 웹 추정, 쇼핑 행동은 Adobe 미국 관측, B2B 문의 전환은 Opollo 고객 연구로 구분했다. 발표일이 2026년이어도 관측이 2025년이면 명시하고, 10월 현재의 사건과 5~7월까지의 시장 데이터를 혼동하지 않는다.
 
@@ -51,30 +51,30 @@ OpenAI의 3월 상품 발견·판매자 checkout 중심 변경, ChatGPT 광고�
 | 근거 | 주 카테고리 | 문서 시점·제공 단계 |
 |---|---|---|
 | [Google AI 검색·fan-out 가이드](evidence/GOO-GEO-20261006-001.md) | G-1 | 2026-07-10 갱신 |
-| [Google llms.txt 명확화](evidence/GOO-LLMS-20261006-001.md) | G-3 | 2026-06-15 문서 명확화 |
-| [OpenAI 목적별 크롤러](evidence/OAI-CRAWL-20261006-001.md) | G-3 | 현행 문서, 절대 갱신일 미공개 |
-| [Google 생성형 AI 노출 보고서](evidence/GOO-MEASURE-20261006-001.md) | G-4 | 2026-08-31 세계 확대 안내, 계정 확인 필요 |
-| [Bing 인용·의도·주제·비교](evidence/BING-MEASURE-20261006-001.md) | G-4 | 2026-06-16 글로벌 preview 발표 |
-| [ChatGPT UTM 식별](evidence/OAI-REFERRAL-20261006-001.md) | G-4 | 현행 FAQ, 절대 갱신일 미공개 |
-| [OpenAI 피드·시장·결제 자격](evidence/OAI-FEED-20261006-001.md) | G-5 | 승인 파트너·Stable |
-| [ACP 주문·결제 책임](evidence/OAI-CHECKOUT-20261006-001.md) | G-5 | Instant Checkout 승인 파트너 |
+| [Google llms.txt 명확화](evidence/GOO-LLMS-20261006-001.md) | G-2 | 2026-06-15 문서 명확화 |
+| [OpenAI 목적별 크롤러](evidence/OAI-CRAWL-20261006-001.md) | G-2 | 현행 문서, 절대 갱신일 미공개 |
+| [Google 생성형 AI 노출 보고서](evidence/GOO-MEASURE-20261006-001.md) | G-3 | 2026-08-31 세계 확대 안내, 계정 확인 필요 |
+| [Bing 인용·의도·주제·비교](evidence/BING-MEASURE-20261006-001.md) | G-3 | 2026-06-16 글로벌 preview 발표 |
+| [ChatGPT UTM 식별](evidence/OAI-REFERRAL-20261006-001.md) | G-3 | 현행 FAQ, 절대 갱신일 미공개 |
+| [OpenAI 피드·시장·결제 자격](evidence/OAI-FEED-20261006-001.md) | G-4 | 승인 파트너·Stable |
+| [ACP 주문·결제 책임](evidence/OAI-CHECKOUT-20261006-001.md) | G-4 | Instant Checkout 승인 파트너 |
 | [Google Business Agent 자격](evidence/GOO-BRAND-20261006-001.md) | G-1 | 미국 기반 판매자 자격 |
-| [Google 9월 Commerce 업데이트](evidence/GOO-COMMERCE-20261006-001.md) | G-5 | 2026-09-16, 기능별 GA·beta·점진 제공 |
-| [Adobe 시장·쇼핑 행동·가독성](evidence/ADI-MARKET-20261006-001.md) | G-8 | 2026-01·04·08 발표, 관측 기간 별도 |
-| [Similarweb AI 규모·웹 경쟁·referral](evidence/SIM-MARKET-20261006-001.md) | G-8 | 2026-07·09 발표, 데이터 끝 05월 |
-| [Opollo 14.2%·2.8% 원출처](evidence/OPO-BENCH-20261006-001.md) | G-4 | 2026-02-22, B2B IT 문의 전환 |
-| [Google 검색·개인화·Spark](evidence/GOO-SEARCH-20261006-001.md) | G-7 | 2026-05~07 발표·후속 현황 |
-| [Google UCP·Universal Cart](evidence/GOO-UCP-20261006-001.md) | G-5 | 2026-01·05 발표, 후속 제공과 구분 |
-| [OpenAI 3월 발견·checkout 방향 변경](evidence/OAI-DISCOVERY-20261006-001.md) | G-5 | 2026-03-24 |
-| [ChatGPT Ads 확대·형식·측정](evidence/OAI-ADS-20261006-001.md) | G-6 | 2026-02~10 발표·국가·테스트 분리 |
-| [Google AI 답변형 광고·Direct Offers](evidence/GOO-ADS-20261006-001.md) | G-6 | 2026-05-20, test·pilot·후속 |
-| [Microsoft Copilot·Brand Agents](evidence/MS-COMMERCE-20261006-001.md) | G-5 | 2026-01-08·04-21 |
-| [Amazon Alexa for Shopping](evidence/AMZ-COMMERCE-20261006-001.md) | G-7 | 2026-02·06 자료, 일부 2025 관측 |
-| [Perplexity Instant Buy](evidence/PER-COMMERCE-20261006-001.md) | G-5 | 현행 문서, 절대 날짜 미확인 |
-| [Anthropic 광고 없는 commerce 방향](evidence/ANT-STRATEGY-20261006-001.md) | G-7 | 2026-02-04 |
-| [ChatGPT 앱·Plugins·checkout](evidence/OAI-PLUGINS-20261006-001.md) | G-7 | 현행 문서, 외부 checkout·선정 beta |
-| [네이버 AI탭·국내 데이터 연결](evidence/NAV-AGENT-20261006-001.md) | G-7 | 2026-07-15, 자체 지표·집계 한계 |
-| [독립 UI/API 추천·인용 audit](evidence/RES-AUDIT-20261006-001.md) | G-4 | 2026-09-16 preprint, 실제 UI·API 구분 |
+| [Google 9월 Commerce 업데이트](evidence/GOO-COMMERCE-20261006-001.md) | G-4 | 2026-09-16, 기능별 GA·beta·점진 제공 |
+| [Adobe 시장·쇼핑 행동·가독성](evidence/ADI-MARKET-20261006-001.md) | G-7 | 2026-01·04·08 발표, 관측 기간 별도 |
+| [Similarweb AI 규모·웹 경쟁·referral](evidence/SIM-MARKET-20261006-001.md) | G-7 | 2026-07·09 발표, 데이터 끝 05월 |
+| [Opollo 14.2%·2.8% 원출처](evidence/OPO-BENCH-20261006-001.md) | G-3 | 2026-02-22, B2B IT 문의 전환 |
+| [Google 검색·개인화·Spark](evidence/GOO-SEARCH-20261006-001.md) | G-6 | 2026-05~07 발표·후속 현황 |
+| [Google UCP·Universal Cart](evidence/GOO-UCP-20261006-001.md) | G-4 | 2026-01·05 발표, 후속 제공과 구분 |
+| [OpenAI 3월 발견·checkout 방향 변경](evidence/OAI-DISCOVERY-20261006-001.md) | G-4 | 2026-03-24 |
+| [ChatGPT Ads 확대·형식·측정](evidence/OAI-ADS-20261006-001.md) | G-5 | 2026-02~10 발표·국가·테스트 분리 |
+| [Google AI 답변형 광고·Direct Offers](evidence/GOO-ADS-20261006-001.md) | G-5 | 2026-05-20, test·pilot·후속 |
+| [Microsoft Copilot·Brand Agents](evidence/MS-COMMERCE-20261006-001.md) | G-4 | 2026-01-08·04-21 |
+| [Amazon Alexa for Shopping](evidence/AMZ-COMMERCE-20261006-001.md) | G-6 | 2026-02·06 자료, 일부 2025 관측 |
+| [Perplexity Instant Buy](evidence/PER-COMMERCE-20261006-001.md) | G-4 | 현행 문서, 절대 날짜 미확인 |
+| [Anthropic 광고 없는 commerce 방향](evidence/ANT-STRATEGY-20261006-001.md) | G-6 | 2026-02-04 |
+| [ChatGPT 앱·Plugins·checkout](evidence/OAI-PLUGINS-20261006-001.md) | G-6 | 현행 문서, 외부 checkout·선정 beta |
+| [네이버 AI탭·국내 데이터 연결](evidence/NAV-AGENT-20261006-001.md) | G-6 | 2026-07-15, 자체 지표·집계 한계 |
+| [독립 UI/API 추천·인용 audit](evidence/RES-AUDIT-20261006-001.md) | G-3 | 2026-09-16 preprint, 실제 UI·API 구분 |
 
 G-1은 통합한 탐색·fan-out 내용을 Google 구조·Bing 의도·독립 UI/API 근거에 연결한다. 주 카테고리는 관리 위치이며 여러 카테고리에서 재사용할 수 있다.
 

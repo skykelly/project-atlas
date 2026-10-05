@@ -1,6 +1,6 @@
 ---
 id: "OAI-DISCOVERY-20261006-001"
-category: "G-5"
+category: "G-4"
 company: "OpenAI"
 tags: ["GEO","AI_commerce","2026_market"]
 review_status: "reviewed"
