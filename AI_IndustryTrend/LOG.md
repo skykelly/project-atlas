@@ -2,6 +2,27 @@
 
 [주제 목차](README.md)
 
+## 2026-10-06 — I-5·I-6 원문 조사와 비교 종합
+
+- 시작 main: `2ddf4b74f5c522fc2a7c19504790c1d6fdf24f39`. I-3·I-4 반영을 이어받아 I-5 Enterprise AX·업무 플랫폼, I-6 인프라·클라우드·배포를 작성했다.
+- 새 evidence 13개를 추가했다. WTI·Deloitte·Microsoft·OpenAI·Google·Salesforce·ServiceNow·SAP의 업무·조직·제공 조건, NVIDIA·AMD·TPU·Trainium·Maia·IEA의 공급·비용·전력 조건을 검토했다.
+- 2026년 발행된 Deloitte 조사는 2025년 8~9월 관측, WTI는 2026년 AI 사용자 표본임을 기록했다. 전망과 actual·접근과 실사용·속도와 품질·과금 resolution과 사업 완결을 분리했다.
+- 9월 Microsoft Autopilot private preview·Managed Runtime preview와 OpenAI Dots의 plan/market/admin 조건을 확인했다. SAP 9월 공동 개발·FedRAMP/FIPS roadmap을 인증 완료로 쓰지 않았다.
+- Salesforce 현행 $2/resolution·400 credits·chat/voice/email window를 확인했다. 자사 430만 문의/70% 해결의 범위와 독립 검증 한계를 기록했다.
+- NVIDIA 생산 ramp·AMD reference design/고객 배포 일정·TPU coming soon·Trainium의 2025-12 GA 배경을 구분했다. AMD 페이지 bandwidth 표현 차이도 남겼다.
+- TPU chip-hour/VM-hour·READY 과금·commitment·지역 조건을 기록하고 가상 비용 계산을 검증했다. IEA 2025 관측/2030 전망·전체 데이터센터/AI-focused·TWh/GW를 구분했다.
+- 기존 I-1~I-4와 22개 evidence는 다시 작성하지 않았다. 기존 GEO·SalesMarketing·seed·Sites·자동화도 변경하지 않았다.
+
+### 검증·적용 한계
+
+공개 공식 원문을 읽었으나 기업 업무 표본·고객 계약·한국 계정·실제 배포·hardware 성능·청구·전력은 실측하지 않았다. 사례는 공급자 보고, 설문은 각 표본의 자기보고, 성능은 내부 비교·peak/target이며 독립 인과 ROI가 아니다. Google 8t/8i 최신 전 고객 GA·한국 quota와 SAP H2/Q4 계획의 개별 달성은 확인되지 않아 계획으로 표시했다. 계획된 날짜 경과만으로 출시 완료를 추정하지 않았다.
+
+### 검사와 다음 단계
+
+6개 category·35개 evidence의 링크·ID·필수 메타데이터·출처 URL·표 열 수와 가상 시간/가격 계산을 검사했다. 기존 4개 category·22개 evidence의 동일성을 확인했다.
+
+다음은 I-7 AI 운영·신뢰·거버넌스와 전체 정합성 검토다. 2026년 보안·평가·감사·사용량 통제·data retention·model access를 운영 책임에 연결한다. I-5·I-6의 추가 범위는 업무별 실측 ROI·한국 계약/리전/전력·동일 과업 hardware benchmark이며 실험 접근이 확보되면 보완한다. Markdown 이후 Sites 통합은 별도 작업이다.
+
 ## 2026-10-06 — I-3·I-4 원문 조사와 비교 종합
 
 - 시작 main: `8a234ed885ffc60eee26456c5d7fff5c0e133b00`. 이전 I-1·I-2 및 12개 evidence를 이어받았다.
