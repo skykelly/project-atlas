@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-06",
+  "source_head": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+  "phase": "editing",
+  "policy": "AGENTS.md#문체와 편집 자동화",
+  "batch_size": 2,
+  "automation_id": null,
+  "final_review": {
+    "status": "pending"
+  },
+  "site": {
+    "project_id": "appgprj_6ac40fefeb988191837e496d71419837",
+    "url": "https://atlas-ai-research.offshoes618072.chatgpt.site",
+    "status": "pending"
+  },
+  "documents": [
+    {
+      "path": "AI_LGgroup/docs/01_ai_data_center_infra.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "fde89b2889be0dcce2798eb99c26858a88d0b2a6",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 1,
+        "throat": 1,
+        "cliche": 0,
+        "generic": 2,
+        "meta": 4
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_LGgroup/docs/02_physical_ai_smart_manufacturing.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "ace49ac4a825c54bfd62047a413fd57aaaa3fa9b",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 1,
+        "meta": 1
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_LGgroup/docs/03_ai_mobility_sdv_aidv.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "8411b71d503daecc9a0ca6a2c0d2c9046da495f1",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 1,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 1,
+        "meta": 1
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_LGgroup/docs/04_enterprise_ax_agentic_operating_model.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "88f13f2130e8773528c3824725988d268341763e",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 4,
+        "meta": 2
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_LGgroup/docs/05_ai_for_science_bio_materials_battery.md",
+      "kind": "synthesis",
+      "status": "completed",
+      "baseline_blob_sha": "20755b3acd51c189dee6bbd2645dd7c09d31bc04",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 2,
+        "throat": 2,
+        "cliche": 0,
+        "generic": 3,
+        "meta": 3
+      },
+      "validation": "passed",
+      "edited_at": "2026-10-06"
+    },
+    {
+      "path": "AI_LGgroup/docs/06_global_ai_alliance_open_innovation.md",
+      "kind": "synthesis",
+      "status": "completed",
+      "baseline_blob_sha": "a11536b699d4017b574a85fc99b2d99f7abf4a35",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 1,
+        "cliche": 0,
+        "generic": 2,
+        "meta": 3
+      },
+      "validation": "passed",
+      "edited_at": "2026-10-06"
+    },
+    {
+      "path": "AI_IndustryTrend/I-1_market_competition.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "ff4cf6577be58f0f6dc7a220fc9a858d4f632222",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 3,
+        "throat": 1,
+        "cliche": 0,
+        "generic": 0,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_IndustryTrend/I-2_models_cost.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "eec01b3ba8f7c728c00d038d5ad607ec8b7ce608",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 1,
+        "meta": 1
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_IndustryTrend/I-3_agents_execution.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "120ec90626f3ec7e3b9229dbbd8621b5bca5d96d",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 2,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_IndustryTrend/I-4_knowledge_data_memory.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "31f9cbe135aa9a3719eb8749ee18dcef39b6d8c5",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 3,
+        "throat": 1,
+        "cliche": 0,
+        "generic": 3,
+        "meta": 1
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_IndustryTrend/I-5_enterprise_ax.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "f7bd94ef25ec9f60b64e0dfa11afc6b4de81e65e",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 1,
+        "meta": 1
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_IndustryTrend/I-6_infrastructure_deployment.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "d199845163f58acc823345c4663ccef917455ce3",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 1,
+        "cliche": 0,
+        "generic": 3,
+        "meta": 1
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_IndustryTrend/I-7_operations_trust_governance.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "b17f6f9ecc38253ebe88c3858aeb6cb517cf2b03",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 1,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 2,
+        "meta": 2
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_GEO_AIcommerce/G-1_ai_search_geo.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "e76e2c4cfa7427d9ef54842420474e642adbc86b",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 4,
+        "meta": 1
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_GEO_AIcommerce/G-2_crawlers_content_access.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "f21da772567862d38f6873ab1ad0fdf7f431e6d1",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 3,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_GEO_AIcommerce/G-3_measurement.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "d30bcd69da4e9ae11fd71041d0cd43d019454598",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 0,
+        "meta": 2
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_GEO_AIcommerce/G-4_agentic_commerce.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "3e90a01752d21a05f828d9f2f453188fe5622c59",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 1,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_GEO_AIcommerce/G-5_ai_ads_monetization.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "2cb642fb858e77f08549dfd8655574036b396a08",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 2,
+        "meta": 1
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_GEO_AIcommerce/G-6_platform_ecosystems.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "a434172d4f06f56c358efa54e1748458915028a4",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 1,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_GEO_AIcommerce/G-7_market_adoption.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "6ab16b7bb30a2b0d3dac6d828a0b96dddcb311ea",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 3,
+        "meta": 1
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_SalesMarketing/1-1_customer_acquisition.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "9cd18434efb5aed1b770ac2509e7e943b445f89c",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 3,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 3,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_SalesMarketing/1-2_conversion.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "b964280c3dca8e05912e320cc7dd973a6b6444d1",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 1,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 2,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_SalesMarketing/1-3_order_value_mix.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "7ca94944f590228fbb44f782a7fcb564383f7722",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 3,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_SalesMarketing/1-4_retention_ltv.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "8fe5ec07fdf9c9047727ba440dac530e6d391e9d",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 0,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_SalesMarketing/1-5_new_revenue_models.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "1b4bcb5ebf103dfc4cb3cc7c70e64638b7348897",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 0,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 2,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_SalesMarketing/2-1_marketing_cost.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "52bc0892cbead2304286821e1e72713f4d150a82",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 2,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 1,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_SalesMarketing/2-2_sales_cost.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "063408b3f818d029e16800317dd4f83a5599dbfa",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 3,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 3,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_SalesMarketing/2-3_customer_care_cost.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "3964c51c9e387193b10c4fc08712c24edeb58ed5",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 3,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 2,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_SalesMarketing/2-4_decision_execution.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "d780892669dd1988ffe8e6523ef6dcbe12fea18b",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 2,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 1,
+        "meta": 0
+      },
+      "validation": null
+    },
+    {
+      "path": "AI_SalesMarketing/2-5_risk_quality.md",
+      "kind": "synthesis",
+      "status": "pending",
+      "baseline_blob_sha": "70a38b51b649d6735977bbfcedc87d30ab0a5c07",
+      "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
+      "diagnostic": {
+        "contrast": 2,
+        "throat": 0,
+        "cliche": 0,
+        "generic": 0,
+        "meta": 0
+      },
+      "validation": null
+    }
+  ],
+  "schedule_status": "prompt_prepared_not_registered",
+  "scope": "30 synthesis reports only; case/evidence/guide/history/seed files excluded"
+}
