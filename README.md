@@ -7,7 +7,7 @@
 - [AI_SalesMarketing](AI_SalesMarketing/README.md): 영업·마케팅 AI 활용 사례. 10개 카테고리와 117개 seed 사례 초안으로 시작.
 - [AI_IndustryTrend](AI_IndustryTrend/README.md): 2026년 AI 산업 변화. I-1~I-7 시장·모델·Agent·기업 지식·AX·인프라·운영 거버넌스의 원문 기반 종합, 49개 근거 문서와 전체 정합성 검토 완료.
 - [AI_GEO_AIcommerce](AI_GEO_AIcommerce/README.md): GEO & AI Commerce. 2026년 시장·10개 플랫폼, 발견·탐색/접근/측정/거래/광고/생태계/시장 행동의 7개 운영 카테고리(G-1~G-7).
-- [AI_LGgroup](AI_LGgroup/README.md): LG Group AI 전략·실행. 기존 6개 테마를 유지한 2026년 공식 원문 기반 종합과 31개 사례; 계약·목표·시연·성과를 분리.
+- [AI_LGgroup](AI_LGgroup/README.md): LG Group AI 전략·실행. 기존 6개 테마를 유지한 2026년 공식 원문 기반 종합과 34개 사례; L-1~L-4 심층 보완; 계약·목표·시연·성과를 분리.
 
 ## 구조
 

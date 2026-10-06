@@ -35,3 +35,9 @@ updated_at: 2026-10-06
 ## 사례 해석
 
 고객과 차종이 명시돼 CES 콘셉트보다 사업 연결이 구체적이다. SDV 제어 영역의 상용화와 AIDV의 AI 기능 상용화를 구분하는 기준점이다.
+
+## 심층 조사 보완 — 2026-10-06 원문 재확인
+
+- 기존 LG 원문을 다시 읽었다. 근거 위치: An Integrated Cockpit Solution / Building on Proven Expertise. 계기판의 속도·RPM·경고와 IVI의 내비게이션·미디어를 콕핏 영역에서 통합한다. ADAS·파워트레인 전체 공급 범위는 아니다.
+- **고객 원문:** [Renault, 2026-02-23](https://media.renaultgroup.com/flexis-enters-new-phase-as-renault-group-takes-full-ownership/?lang=eng). 근거 위치: 요약·생산 일정 문단. 확인일 2026-10-06. 신형 Trafic Van E-Tech Electric을 Sandouville에서 2026년 말 생산 개시할 계획을 발표했다. 기존 동명 전기 밴의 생산 이력을 새 SDV 실적으로 옮기지 않는다.
+- LG의 개발·전달 사실과 고객 차량의 생산 예정 시점을 함께 기록한다. 기준일 현재 완성차 판매량·LG 납품 대수·생성형 AI Cabin 탑재는 확인되지 않았다.

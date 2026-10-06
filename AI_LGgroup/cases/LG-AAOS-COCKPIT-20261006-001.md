@@ -35,3 +35,9 @@ updated_at: 2026-10-06
 ## 사례 해석
 
 디스플레이가 늘어도 제어기와 배선을 무한히 늘리지 않는 접근이다. LG의 가치는 운영체제 자체보다 자원 배분·통합·차량별 UX 구현에 있다.
+
+## 심층 조사 보완 — 2026-10-06 원문 재확인
+
+- **추가 원문:** [LG 공식 상세 발표, 2026-05-28](https://www.lg.com/global/business/insights/mobility/news/20260528-solution-lg-google-aaos-ivi-sdv/?hashTag=SDV). 근거 위치: Single SoC·Personalized Experiences. 확인일 2026-10-06.
+- 좌석별 내비게이션·영상의 동시 사용, 개별 계정·콘텐츠 공유·부모 통제, 음성 화면 배치 조작을 설명한다. 자원 배분·부하 최적화는 제품의 기능 설명이며 비용·프레임·전력 개선 실측은 미공개다.
+- **시장 근거:** [Google, 2026-03-24](https://blog.google/products-and-platforms/platforms/android/android-automotive-os/). 근거 위치: AAOS SDV·non-safety parts·Renault/Qualcomm. 확인일 2026-10-06. Google은 인포테인먼트 밖의 비안전 영역 기반 확장과 연내 오픈소스 공개 계획을 설명한다. 전장 안전 제어 전체의 개방 또는 인증 완료로 해석하지 않는다.

@@ -12,16 +12,16 @@ LG의 AI를 한 개 모델이나 계열사로 설명하기는 어렵다. 인프�
 |---|---|---|---|
 | L-1 | [AI Data Center / Infra](docs/01_ai_data_center_infra.md) | AI 수요의 전력·냉각·구축·운영 병목을 어디서 수익으로 연결하는가? | 6 |
 | L-2 | [Physical AI / Smart Manufacturing](docs/02_physical_ai_smart_manufacturing.md) | 실제 공정 데이터를 로봇 학습·검증·관제로 어떻게 연결하는가? | 6 |
-| L-3 | [AI Mobility / SDV·AIDV](docs/03_ai_mobility_sdv_aidv.md) | SDV 기반 공급과 AIDV의 AI 경험은 어디까지 상용화됐는가? | 7 |
-| L-4 | [Enterprise AX / Agentic Operating Model](docs/04_enterprise_ax_agentic_operating_model.md) | 개인 도구를 데이터·판단·실행·승인 체계로 어떻게 확장하는가? | 6 |
+| L-3 | [AI Mobility / SDV·AIDV](docs/03_ai_mobility_sdv_aidv.md) | SDV 기반 공급과 AIDV의 AI 경험은 어디까지 상용화됐는가? | 8 |
+| L-4 | [Enterprise AX / Agentic Operating Model](docs/04_enterprise_ax_agentic_operating_model.md) | 개인 도구를 데이터·판단·실행·승인 체계로 어떻게 확장하는가? | 8 |
 | L-5 | [AI for Science / Bio / Materials / Battery](docs/05_ai_for_science_bio_materials_battery.md) | 후보 설계가 실험·소재·배터리·신약 성과로 어디까지 이어졌는가? | 3 |
 | L-6 | [Global AI Alliance / Open Innovation](docs/06_global_ai_alliance_open_innovation.md) | 외부 역량과 LG 산업 자산의 결합은 어떤 계약·연구·투자로 확인되는가? | 3 |
 
-총 **6개 종합 문서·31개 사례 문서**. 사례의 주 분류 기준으로 한 번만 집계한다. 여러 테마에 연결되는 협력·제품 사례는 링크로 재사용한다.
+총 **6개 종합 문서·34개 사례 문서**. 사례의 주 분류 기준으로 한 번만 집계한다. 여러 테마에 연결되는 협력·제품 사례는 링크로 재사용한다.
 
 ## 심층 조사 리포트 진행
 
-L-1·L-2는 사업 구조·고객 프로젝트·작업 흐름·수치 조건을 중심으로 심층 리포트로 재작성했다. L-3~L-6은 기존 종합이며 동일한 깊이의 보완을 순차 진행한다. 첫 묶음은 냉각 공급계약과 시설 사업, 스마트팩토리 사업화와 로봇 데이터·관제의 연결을 다룬다.
+L-1~L-4를 사업 구조·고객 프로젝트·작업 흐름·수치 조건 중심의 심층 리포트로 재작성했다. L-3은 실제 SDV 공급과 AI 경험·배터리 SW, L-4는 종근당 보고서 자동화·품질 데이터·시스템 개발과 AX 공급 사업을 다룬다. L-5·L-6은 기존 종합이며 동일한 깊이의 보완을 순차 진행한다.
 
 ## 2. 그룹을 관통하는 비교
 
@@ -81,6 +81,8 @@ EXAONE의 일반 모델·라이선스는 [기존 모델 근거](../AI_IndustryTr
 - [5G R16 스마트 텔레매틱스의 양산·공급](cases/LG-TELEMATICS-20261006-001.md) — 양산·납품 시작 발표
 - [Renault 첫 상용 SDV의 통합 콕핏 공급](cases/LG-RENAULT-COCKPIT-20261006-001.md) — 차종 특정 공급 발표
 
+- [VS 2분기 실적의 범위](cases/LG-VS-RESULTS-20261006-001.md) — 전장 전체 실적·AI 매출과 구분
+
 ### L-4. Enterprise AX / Agentic Operating Model
 
 - [LGenie와 전사 생산성 목표](cases/LG-LGENIE-AX-20261006-001.md) — 전사 활용·플랫폼 진화·목표
@@ -89,6 +91,9 @@ EXAONE의 일반 모델·라이선스는 [기존 모델 근거](../AI_IndustryTr
 - [현업 1인 1에이전트 교육 확산](cases/LG-CHEM-AGENTS-20261006-001.md) — 교육 실적·단일 업무 사례
 - [DevOn Agentic AIND의 기업 시스템 개발](cases/LG-AIND-20261006-001.md) — 제품 출시·금융 프로젝트 적용 중
 - [ChatGPT Enterprise·Edu 공급 채널](cases/LG-OPENAI-CHANNEL-20261006-001.md) — 파트너 계약·외부 고객 확보
+
+- [종근당 APQR 자동화](cases/LG-CKD-APQR-20261006-001.md) — 구축 완료·문서 생성 시간 변화
+- [CNS 상반기 AI·클라우드 실적](cases/LG-CNS-AX-RESULTS-20261006-001.md) — 연결 잠정 실적·Agent 단독 매출과 구분
 
 ### L-5. AI for Science / Bio / Materials / Battery
 
