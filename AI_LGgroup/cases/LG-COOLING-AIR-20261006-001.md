@@ -40,3 +40,10 @@ LG의 냉각 경쟁력은 제품 개발에 더해 북미 고객 접점과 현지
 ## 추가·후속 근거
 
 - [2026-10-01 / 게시 2026-10-02](https://www.lgcorp.com/media/release/30632) — Establishing Air-Cooled Chiller Production Facility / Expanding Production at Korean Facilities; 투자 1,500억원·2027년 상반기 생산. 확인일 2026-10-06.
+
+## 심층 조사 보완 — 거래 상대방과 효율 조건
+
+- **추가 원문:** [AIR 공식 발표, 2026-10-05](https://www.aircontrolconcepts.com/news/air-and-lg-supply-agreement-aims-to-advance-ai-data-center-cooling-business-in-north-america). 확인일 2026-10-06. 근거 위치: 계약 범위 문단, 기술 설명 및 각주 1, About AIR.
+- AIR도 미국·캐나다 5GW 이상 프로젝트의 장기 칠러 공급을 발표했다. AIR는 50개 이상 운영사와 3,500명 이상 인력을 가진 플랫폼으로 소개한다. 이는 고객 접점·지역 서비스 기반의 설명이며 계약 원본의 독립 검증은 아니다.
+- 냉매 free-cooling과 물측 free-cooling의 연간 비교는 LG 내부 시뮬레이션이다. 1,750kW 장치·100% 냉각 용량·수도권 기후 조건에서 각각 1,044,824kWh와 1,479,655kWh를 계산했다. 약 30% 절감은 해당 장치 에너지의 비교이며 시설 전체 전력·PUE·북미 고객 실측이 아니다.
+- 생산 시설 원문의 근거 위치: Establishing Air-Cooled Chiller Production Facility. Windsor 부지 약 17만㎡·건물 약 3만㎡, 2027년 상반기 가동 예정이다. 투자 1,500억원은 국내 확대와 미국 신공장 합산 계획이다.
