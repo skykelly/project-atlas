@@ -2,6 +2,36 @@
 
 [주제 목차](README.md)
 
+## 2026-10-06 — 계획 6단계: I-7 작성과 전체 정합성 검토
+
+- 시작 main: `5b65816e94da10619f525c38a125cb98c69cf0d3`. I-1~I-6·35개 근거를 이어받았다. 6단계는 I-6 재작성이 아니라 I-7 운영·신뢰·거버넌스 및 전체 정합성 검토다.
+- I-7을 표·불렛·번호와 설명 문단으로 작성했다. 플랫폼 관리·identity/policy·injection/오용·평가·보존/감사·국내/EU 규정·provenance·FinOps·배포/사고 책임을 연결했다.
+- 신규 근거 14개를 추가했다. NIST·Microsoft·Google·AWS·OpenAI·Anthropic·European Commission·국가법령정보센터/NIA·FinOps Foundation의 공식 원문을 검토했다. 총 7개 종합·49개 근거다.
+- Microsoft Commercial GA와 team workflow Preview, Google 기능별 GA/preview, AWS Policy/Evaluations의 날짜·리전 차이를 분리했다. 인증·권한·content 검사·결과 평가는 다른 책임으로 정리했다.
+- Anthropic 단일/adaptive 공격 실험·phishing 실험·4건 평가 사고와 OpenAI 내부 연구 사건을 전체 production 실패율로 쓰지 않았다. 사건·발견·보고·독립 조사 계약/완료를 구분했다.
+- OpenAI 감사 30일·03-05/06-05 conversation route 전환, 10-05 textGrain opt-in/rollout·검출/편집 조건을 기록했다. 로그·memory·학습·정확성·provenance를 구분했다.
+- 한국 최초 01-22 시행 안내와 현행 조문 07-21 시행본, EU 투명성 08-02와 Omnibus 이후 고위험 2027/2028 일정을 구분했다. 원문 일부 PDF 미추출 범위를 근거 파일에 명시했다.
+- FinOps 전체 1,192와 세부 N=632·현재/향후 기대를 구분했다. 63%→98%는 35%p로 표기했다. 0/100건의 가상 이항 95% 상한 약 2.95% 계산을 확인했다.
+
+### 전체 정합성 검토
+
+| 확인 축 | 검토 결과 |
+|---|---|
+| 주제·중복 | 시장/모델/실행/지식/업무/인프라/통제로 목적 구분; I-7에서 기존 근거를 재사용하고 신규 원문 범위만 추가 |
+| 제공 조건 | GA·Preview·Beta·계획·rollout을 기능/상품/날짜 단위로 유지; 리전·ZDR·license 전이 금지 |
+| 숫자·기간 | 매출/run rate·%/%p·단가/총비용·표본/전체·관측/전망·발생/발견/공개 구분 |
+| 용어 | 인증≠권한, trace≠최종 상태, session≠memory, containment≠무위험, provenance≠정확성 |
+| 기존 결과 보존 | 기존 I-1~I-6 본문과 35개 evidence를 다시 생성하지 않고 그대로 유지 |
+| 문서 구조 | 7개 카테고리·49개 근거의 링크·ID·필수 메타데이터·URL·표 구조 검사; 목차·루트 안내 갱신 |
+
+### 검증·적용 한계
+
+공개 원문 검토이며 실제 API·한국 계정·IAM/tenant·침해·로그/삭제·수락/청구·기업 법적 적합성을 실측하지 않았다. NIA 가이드 PDF와 EU 개정 법률 전체 조문은 도구에서 추출되지 않아 검토 완료로 표시하지 않았다. OpenAI hub의 third-party 통지는 확인 본문 ‘dozens’를 사용했고 보도의 100+를 확정 수치로 채택하지 않았다. 사건 공개·독립 조사 계약을 독립 최종 감사로 표시하지 않았다.
+
+### 후속 범위
+
+계획의 문서 종합 6단계는 완료했다. 검토 결과를 보존하기 위해 README·LOG·링크 검사와 GitHub 반영까지 함께 처리했다. 내부 평가 표본·한국 계약/리전·시행령/고시·가이드 전체 법률 검토·독립 조사 결과는 해당 자료/환경 접근 시 추가 검증할 범위다. Sites 통합·HTML 배포는 별도 요청 범위이며 이번에 수행하지 않았다. 기존 GEO·SalesMarketing·seed·Sites·자동화는 변경하지 않았다.
+
 ## 2026-10-06 — I-5·I-6 원문 조사와 비교 종합
 
 - 시작 main: `2ddf4b74f5c522fc2a7c19504790c1d6fdf24f39`. I-3·I-4 반영을 이어받아 I-5 Enterprise AX·업무 플랫폼, I-6 인프라·클라우드·배포를 작성했다.
