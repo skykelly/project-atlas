@@ -12,7 +12,12 @@
   "site": {
     "project_id": "appgprj_6ac40fefeb988191837e496d71419837",
     "url": "https://atlas-ai-research.offshoes618072.chatgpt.site",
-    "status": "pending"
+    "status": "partial_deployed",
+    "source_commit": "717c92e443f628e79ab73b3a9e4a3708dda769c5",
+    "site_source_commit": "1cff3ad6d1b9b7db14dac038b08f569074ad31cb",
+    "deployment_id": "appgdep_6ac5781f170c8191b21ef86bf06a0d62",
+    "deployed_at": "2026-10-07",
+    "edited_reports_deployed": 10
   },
   "documents": [
     {
@@ -476,7 +481,7 @@
       "validation": null
     }
   ],
-  "schedule_status": "registered_active_hourly",
+  "schedule_status": "cancelled_manual",
   "scope": "30 synthesis reports only; case/evidence/guide/history/seed files excluded",
   "last_batch": {
     "started_from": "26f9249cecd91194e79b007f59c741ea7976c4bf",
@@ -488,5 +493,7 @@
     ],
     "validation": "passed",
     "completed_at": "2026-10-07"
-  }
+  },
+  "execution_mode": "manual",
+  "automation_cancelled_at": "2026-10-07"
 }
