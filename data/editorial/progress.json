@@ -114,7 +114,7 @@
     {
       "path": "AI_IndustryTrend/I-1_market_competition.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "ff4cf6577be58f0f6dc7a220fc9a858d4f632222",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -124,12 +124,13 @@
         "generic": 0,
         "meta": 0
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07"
     },
     {
       "path": "AI_IndustryTrend/I-2_models_cost.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "eec01b3ba8f7c728c00d038d5ad607ec8b7ce608",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -139,12 +140,13 @@
         "generic": 1,
         "meta": 1
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07"
     },
     {
       "path": "AI_IndustryTrend/I-3_agents_execution.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "120ec90626f3ec7e3b9229dbbd8621b5bca5d96d",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -154,12 +156,13 @@
         "generic": 2,
         "meta": 0
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07"
     },
     {
       "path": "AI_IndustryTrend/I-4_knowledge_data_memory.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "31f9cbe135aa9a3719eb8749ee18dcef39b6d8c5",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -169,7 +172,8 @@
         "generic": 3,
         "meta": 1
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07"
     },
     {
       "path": "AI_IndustryTrend/I-5_enterprise_ax.md",
@@ -475,12 +479,12 @@
   "schedule_status": "registered_active_hourly",
   "scope": "30 synthesis reports only; case/evidence/guide/history/seed files excluded",
   "last_batch": {
-    "started_from": "5c2a313318c80ee66af840379a95f0c6853bc3fe",
+    "started_from": "26f9249cecd91194e79b007f59c741ea7976c4bf",
     "documents": [
-      "AI_LGgroup/docs/01_ai_data_center_infra.md",
-      "AI_LGgroup/docs/02_physical_ai_smart_manufacturing.md",
-      "AI_LGgroup/docs/03_ai_mobility_sdv_aidv.md",
-      "AI_LGgroup/docs/04_enterprise_ax_agentic_operating_model.md"
+      "AI_IndustryTrend/I-1_market_competition.md",
+      "AI_IndustryTrend/I-2_models_cost.md",
+      "AI_IndustryTrend/I-3_agents_execution.md",
+      "AI_IndustryTrend/I-4_knowledge_data_memory.md"
     ],
     "validation": "passed",
     "completed_at": "2026-10-07"
