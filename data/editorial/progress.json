@@ -183,7 +183,7 @@
     {
       "path": "AI_IndustryTrend/I-5_enterprise_ax.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "f7bd94ef25ec9f60b64e0dfa11afc6b4de81e65e",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -193,12 +193,15 @@
         "generic": 1,
         "meta": 1
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07",
+      "research_source_commit": "97b19bb1b4453a9a9b17d5130c30a055641bc72d",
+      "validation_scope": "research facts reviewed separately; post-research editorial baseline check passed"
     },
     {
       "path": "AI_IndustryTrend/I-6_infrastructure_deployment.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "d199845163f58acc823345c4663ccef917455ce3",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -208,12 +211,15 @@
         "generic": 3,
         "meta": 1
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07",
+      "research_source_commit": "97b19bb1b4453a9a9b17d5130c30a055641bc72d",
+      "validation_scope": "research facts reviewed separately; post-research editorial baseline check passed"
     },
     {
       "path": "AI_IndustryTrend/I-7_operations_trust_governance.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "b17f6f9ecc38253ebe88c3858aeb6cb517cf2b03",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -223,7 +229,10 @@
         "generic": 2,
         "meta": 2
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07",
+      "research_source_commit": "97b19bb1b4453a9a9b17d5130c30a055641bc72d",
+      "validation_scope": "research facts reviewed separately; post-research editorial baseline check passed"
     },
     {
       "path": "AI_GEO_AIcommerce/G-1_ai_search_geo.md",
@@ -484,16 +493,25 @@
   "schedule_status": "cancelled_manual",
   "scope": "30 synthesis reports only; case/evidence/guide/history/seed files excluded",
   "last_batch": {
-    "started_from": "26f9249cecd91194e79b007f59c741ea7976c4bf",
+    "started_from": "e67ca7a800e53aa6422e5a3abbe749cdabe64bd9",
     "documents": [
-      "AI_IndustryTrend/I-1_market_competition.md",
-      "AI_IndustryTrend/I-2_models_cost.md",
-      "AI_IndustryTrend/I-3_agents_execution.md",
-      "AI_IndustryTrend/I-4_knowledge_data_memory.md"
+      "AI_IndustryTrend/I-5_enterprise_ax.md",
+      "AI_IndustryTrend/I-6_infrastructure_deployment.md",
+      "AI_IndustryTrend/I-7_operations_trust_governance.md"
     ],
     "validation": "passed",
-    "completed_at": "2026-10-07"
+    "completed_at": "2026-10-07",
+    "mode": "manual_research_and_editorial",
+    "content_commit": "97b19bb1b4453a9a9b17d5130c30a055641bc72d"
   },
   "execution_mode": "manual",
-  "automation_cancelled_at": "2026-10-07"
+  "automation_cancelled_at": "2026-10-07",
+  "industry_research_review": {
+    "status": "completed",
+    "reviewed_at": "2026-10-07",
+    "documents": 7,
+    "evidence_documents": 63,
+    "source_commit": "97b19bb1b4453a9a9b17d5130c30a055641bc72d",
+    "site_deployment": "pending"
+  }
 }
