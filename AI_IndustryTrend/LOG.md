@@ -2,6 +2,27 @@
 
 [주제 목차](README.md)
 
+## 2026-10-06 — I-3·I-4 원문 조사와 비교 종합
+
+- 시작 main: `8a234ed885ffc60eee26456c5d7fff5c0e133b00`. 이전 I-1·I-2 및 12개 evidence를 이어받았다.
+- I-3 Agent·업무 실행과 I-4 기업 지식·데이터·메모리를 표·불렛·번호와 설명 문단으로 작성했다. 2026년 발표와 10-06 현행 문서를 구분했다.
+- 새 evidence 10개를 추가했다. SDK/managed 책임·세션/compute/memory 차이·최종 상태·복구·멀티 Agent·평가·metric 의미·source authority·공유 권한·memory 수명을 기록했다.
+- 숫자의 조건을 확인했다: compiler 16 Agent·약 2주·API 약 $20,000 미만, TTFT p50 약 60%·p95 90% 이상 개선, Genie 내부 28-question 비교 84.5%/52.4%·32.1%p 차이.
+- Genie 제품 GA와 Ontology Public Preview, 새 memory Beta와 legacy UC memory를 구분했다. overview의 semantic search와 상세 BM25 표현 차이도 남겼다.
+- AWS microVM invocation 8시간과 instances 세션 14일을 구분했다. MCP 서버 14리전 서울 지원을 instances 리전에 전이하지 않았다.
+- OpenAI SDK GA와 managed Agents API beta 예제를 구분하고 미국 residency·ZDR 조건을 기록했다. Anthropic의 ZDR·HIPAA BAA 미대상과 파일 별도 삭제도 기록했다.
+- 공개 공급자 실험·고객 인용·비전 글을 독립 성과로 표시하지 않았다. 기존 I-1·I-2·GEO·SalesMarketing·seed·Sites·자동화는 갱신하지 않았다.
+
+### 검증·적용 한계
+
+공식 원문을 읽었으나 모델/API 호출·배포·권한 회수·주체 간 memory 격리·복구·청구·한국어 평가를 수행하지 않았다. 내부 벤치마크는 독립 재현하지 않았고 개별 기업 ROI를 추정하지 않았다. 발표 리전은 해당 발표의 조건이며 신규 한국 계정의 현재 계약·제공 보장은 아니다.
+
+### 검사와 다음 단계
+
+주제 내부 링크·22개 evidence ID/메타데이터·출처 URL·표 열 수·산술을 확인했다. 기존 12개 evidence와 I-1·I-2 본문의 동일성을 확인했다.
+
+다음은 I-5 Enterprise AX·업무 플랫폼과 I-6 인프라·클라우드·배포다. 실제 조직의 생산성·수락률·업무 범위·관측기간과 연산·전력·추론 비용을 분리해 조사한다. 이후 I-7 운영·신뢰·거버넌스에서 보안·평가·책임을 종합한다. I-3·I-4의 추가 실측은 업무별 평가 데이터·계정·도구 접근이 확보될 때 수행한다. Sites 통합은 별도 작업이다.
+
 ## 2026-10-06 — I-1·I-2 원문 조사와 비교 종합
 
 - 시작 main: `407e558c9d875cfa2289803f11c5c217664eedb9`. 루트 AGENTS·README와 Industry Trend README를 확인했다. 기존 폴더에는 README만 있었고 LOG는 없었다.

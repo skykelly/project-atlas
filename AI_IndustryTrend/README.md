@@ -10,8 +10,8 @@
 |---|---|---|---|
 | I-1 | [AI 시장·주요 기업 경쟁](I-1_market_competition.md) | 누가 어떤 가치·유통·업무 접점에서 경쟁하는가? | 원문 기반 비교 종합 작성 |
 | I-2 | [모델 역량·비용·사용 조건](I-2_models_cost.md) | 업무 품질·성공 비용·접근 조건으로 어떻게 선택하는가? | 원문 기반 비교 종합 작성 |
-| I-3 | Agent·업무 실행 기술 | 도구·컴퓨터·멀티 Agent의 실행과 복구는 어떻게 달라지는가? | 다음 작성 대상 |
-| I-4 | 기업 지식·데이터·메모리 | 검색·Ontology·권한·메모리를 어떻게 연결하는가? | 다음 작성 대상 |
+| I-3 | [Agent·업무 실행 기술](I-3_agents_execution.md) | 도구·컴퓨터·멀티 Agent의 실행과 복구는 어떻게 달라지는가? | 원문 기반 비교 종합 작성 |
+| I-4 | [기업 지식·데이터·메모리](I-4_knowledge_data_memory.md) | 검색·Ontology·권한·메모리를 어떻게 연결하는가? | 원문 기반 비교 종합 작성 |
 | I-5 | Enterprise AX·업무 플랫폼 | 기업 업무·조직의 변화와 성과는 무엇인가? | 조사 대기 |
 | I-6 | AI 인프라·클라우드·배포 | 공급·전력·추론·배포의 경제성은 어떻게 변하는가? | 조사 대기 |
 | I-7 | AI 운영·신뢰·거버넌스 | 평가·보안·책임·통제를 어떻게 운영하는가? | 조사 대기 |
@@ -37,7 +37,18 @@
 | [Gemini 단계·가격](evidence/GOO-MODELS-20261006-001.md) | I-2 | GA·제한 접근·연말 한시 가격 |
 | [Open-weight·라이선스](evidence/OPEN-MODELS-20261006-001.md) | I-2 | Qwen3.6·EXAONE 4.5의 특정 공개 모델 |
 
-`reviewed`는 원문 확인이다. 독립 실험·감사·한국 계정 제공·청구 검증을 의미하지 않는다. 12개 근거 문서는 여러 URL을 함께 검토한 주제별 기록으로, 개별 원문 수와 같지 않다.
+| [SDK와 managed harness의 책임 분리](evidence/OAI-AGENTS-20261006-001.md) | I-3 | 원문·제공 단계·측정 조건·한계 |
+| [Managed Agents의 상태·실행·자격증명 분리](evidence/ANT-RUNTIME-20261006-001.md) | I-3 | 원문·제공 단계·측정 조건·한계 |
+| [16 Agent C compiler 실험의 규모와 한계](evidence/ANT-TEAMS-20261006-001.md) | I-3 | 원문·제공 단계·측정 조건·한계 |
+| [Agent 평가: 발화가 아닌 환경의 최종 상태](evidence/ANT-EVALS-20261006-001.md) | I-3 | 원문·제공 단계·측정 조건·한계 |
+| [AgentCore: MCP 상태와 장시간 compute의 구분](evidence/AWS-RUNTIME-20261006-001.md) | I-3 | 원문·제공 단계·측정 조건·한계 |
+| [Genie Ontology의 의미·출처·내부 비교](evidence/DB-ONTOLOGY-20261006-001.md) | I-4 | 원문·제공 단계·측정 조건·한계 |
+| [세션과 durable memory의 수명·정체성](evidence/DB-MEMORY-20261006-001.md) | I-4 | 원문·제공 단계·측정 조건·한계 |
+| [Semantic View와 구조·비구조 데이터의 실행 연결](evidence/SNOW-SEMANTIC-20261006-001.md) | I-4 | 원문·제공 단계·측정 조건·한계 |
+| [개인 검색과 공동 응답의 권한 차이](evidence/GLEAN-ACCESS-20261006-001.md) | I-4 | 원문·제공 단계·측정 조건·한계 |
+| [Semantic Control Plane과 지식 steward의 역할](evidence/STAR-CONTEXT-20261006-001.md) | I-4 | 원문·제공 단계·측정 조건·한계 |
+
+`reviewed`는 원문 확인이다. 독립 실험·감사·한국 계정 제공·청구 검증을 의미하지 않는다. 22개 근거 문서는 여러 URL을 함께 검토한 주제별 기록으로, 개별 원문 수와 같지 않다.
 
 ## 주제 경계와 유지 원칙
 
