@@ -4,8 +4,8 @@
   "source_head": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
   "phase": "editing",
   "policy": "AGENTS.md#문체와 편집 자동화",
-  "batch_size": 2,
-  "automation_id": null,
+  "batch_size": 4,
+  "automation_id": "6ac55f61133081918ae3faee1573c756",
   "final_review": {
     "status": "pending"
   },
@@ -18,7 +18,7 @@
     {
       "path": "AI_LGgroup/docs/01_ai_data_center_infra.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "fde89b2889be0dcce2798eb99c26858a88d0b2a6",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -28,12 +28,13 @@
         "generic": 2,
         "meta": 4
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07"
     },
     {
       "path": "AI_LGgroup/docs/02_physical_ai_smart_manufacturing.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "ace49ac4a825c54bfd62047a413fd57aaaa3fa9b",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -43,12 +44,13 @@
         "generic": 1,
         "meta": 1
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07"
     },
     {
       "path": "AI_LGgroup/docs/03_ai_mobility_sdv_aidv.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "8411b71d503daecc9a0ca6a2c0d2c9046da495f1",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -58,12 +60,13 @@
         "generic": 1,
         "meta": 1
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07"
     },
     {
       "path": "AI_LGgroup/docs/04_enterprise_ax_agentic_operating_model.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "88f13f2130e8773528c3824725988d268341763e",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -73,7 +76,8 @@
         "generic": 4,
         "meta": 2
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07"
     },
     {
       "path": "AI_LGgroup/docs/05_ai_for_science_bio_materials_battery.md",
@@ -468,6 +472,17 @@
       "validation": null
     }
   ],
-  "schedule_status": "prompt_prepared_not_registered",
-  "scope": "30 synthesis reports only; case/evidence/guide/history/seed files excluded"
+  "schedule_status": "registered_active_hourly",
+  "scope": "30 synthesis reports only; case/evidence/guide/history/seed files excluded",
+  "last_batch": {
+    "started_from": "5c2a313318c80ee66af840379a95f0c6853bc3fe",
+    "documents": [
+      "AI_LGgroup/docs/01_ai_data_center_infra.md",
+      "AI_LGgroup/docs/02_physical_ai_smart_manufacturing.md",
+      "AI_LGgroup/docs/03_ai_mobility_sdv_aidv.md",
+      "AI_LGgroup/docs/04_enterprise_ax_agentic_operating_model.md"
+    ],
+    "validation": "passed",
+    "completed_at": "2026-10-07"
+  }
 }

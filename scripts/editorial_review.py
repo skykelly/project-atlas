@@ -30,7 +30,7 @@ c=sub.add_parser('check');c.add_argument('--before',required=True);c.add_argumen
 q=sub.add_parser('status');q.add_argument('--progress',default='data/editorial/progress.json')
 a=p.parse_args()
 if a.command=='status':
- d=json.loads(pathlib.Path(a.progress).read_text());counts=collections.Counter(x['status'] for x in d['documents']);remaining=sum(v for k,v in counts.items() if k!='completed');print(json.dumps({'documents':len(d['documents']),'counts':dict(counts),'remaining_runs':sum((sum(x['status']!='completed' and x['kind']==k for x in d['documents'])+1)//2 for k in ['synthesis','evidence','guide'])},ensure_ascii=False));sys.exit(0)
+ d=json.loads(pathlib.Path(a.progress).read_text());counts=collections.Counter(x['status'] for x in d['documents']);remaining=sum(v for k,v in counts.items() if k!='completed');print(json.dumps({'documents':len(d['documents']),'counts':dict(counts),'remaining_runs':sum((sum(x['status']!='completed' and x['kind']==k for x in d['documents'])+d.get('batch_size',2)-1)//d.get('batch_size',2) for k in ['synthesis','evidence','guide'])},ensure_ascii=False));sys.exit(0)
 reports=[];failed=False
 for name in a.paths:
  before=(pathlib.Path(a.before)/name).read_text();after=(pathlib.Path(a.after)/name).read_text();errors=[]
