@@ -192,3 +192,12 @@
 - Sales 10개 최신 종합의 상대 링크와 대조 강조 문법을 전체 점검했다. 깨진 상대 링크와 해당 금지 문법을 발견하지 않았다. 개별 문서의 내용 대조는 각 회차 기록을 따른다.
 - 신규 외부 사실·수치·확인일을 만들지 않았다. 새 웹 재검증·실험·ROI 측정은 수행하지 않았다. 사례 117개·분류·README·seed·다른 종합은 수정하지 않았다.
 - main 반영 확인 후 진행 파일에 Sales 10개 편집 완료를 기록한다. 예약 취소·수동 상태를 유지한다. 전체 30개 편집과 최종 검토·Sites 배포 완료를 주장하지 않는다. 이번 작업은 Markdown 편집과 Sales 범위 점검까지 수행했다.
+
+## 2026-10-07 — Sales 편집 완료본 Sites 배포
+
+- Markdown 기준 main: `ee14a5dbf78561ccf2399ffb367a6a6226450b2d`. 기존 Atlas Sites의 원격 소스를 열고 네 주제의 최신 Markdown 스냅샷을 반영했다. Sales 10개 편집본과 Industry 최신 보강을 포함한다.
+- 기존 Site ID·URL·접근 범위(custom)·좌측 메뉴·검색·비교·Monthly Trend 11개 링크와 iframe 열람을 유지했다. 새 Site와 예약은 만들지 않았다.
+- HTML 빌드·JavaScript 구문·Sales 본문 일치·표·리포트 및 사례 건수·독립 HTML 기준 커밋 표시를 검사했다. 10개 Sales·117개 사례, 7개 Industry·63개 근거, 7개 GEO·31개 근거, 6개 LG·35개 사례를 확인했다.
+- Sites 소스 `b45c75b72ac5e772095a360014c93e6a52b55795`, 저장 버전 7, 배포 `appgdep_6ac5a16d22988191ae60264db8b857ae`: succeeded와 최종 URL을 확인했다.
+- URL: https://atlas-ai-research.offshoes618072.chatgpt.site
+- 브라우저 시각·상호작용 QA는 이 환경에서 수행하지 못했다. 배포 성공은 Sites의 성공 응답으로 확인했다. 전체 30개 문체 편집·전체 최종 검토 완료 상태로 바꾸지 않았다.

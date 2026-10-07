@@ -13,11 +13,13 @@
     "project_id": "appgprj_6ac40fefeb988191837e496d71419837",
     "url": "https://atlas-ai-research.offshoes618072.chatgpt.site",
     "status": "partial_deployed",
-    "source_commit": "717c92e443f628e79ab73b3a9e4a3708dda769c5",
-    "site_source_commit": "1cff3ad6d1b9b7db14dac038b08f569074ad31cb",
-    "deployment_id": "appgdep_6ac5781f170c8191b21ef86bf06a0d62",
+    "source_commit": "ee14a5dbf78561ccf2399ffb367a6a6226450b2d",
+    "site_source_commit": "b45c75b72ac5e772095a360014c93e6a52b55795",
+    "deployment_id": "appgdep_6ac5a16d22988191ae60264db8b857ae",
     "deployed_at": "2026-10-07",
-    "edited_reports_deployed": 10
+    "edited_reports_deployed": 23,
+    "saved_version_id": "appgprj_6ac40fefeb988191837e496d71419837~appgver_9eb9a4b6a71c8191a643c1605da908fa",
+    "latest_snapshot_deployed": true
   },
   "documents": [
     {
@@ -545,6 +547,8 @@
       "scope": "Sales 10 relative links and contrast expressions; pair preservation and semantic reviews per round",
       "reviewed_at": "2026-10-07"
     },
-    "site_status": "pending"
+    "site_status": "deployed",
+    "site_source_commit": "ee14a5dbf78561ccf2399ffb367a6a6226450b2d",
+    "deployment_id": "appgdep_6ac5a16d22988191ae60264db8b857ae"
   }
 }
