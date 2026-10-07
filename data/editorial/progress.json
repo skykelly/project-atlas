@@ -376,7 +376,7 @@
     {
       "path": "AI_SalesMarketing/1-3_order_value_mix.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "7ca94944f590228fbb44f782a7fcb564383f7722",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -386,12 +386,14 @@
         "generic": 3,
         "meta": 0
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07",
+      "editorial_source_commit": "77542d5da6c3ea7869c9288ed9b860ca1d20060b"
     },
     {
       "path": "AI_SalesMarketing/1-4_retention_ltv.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "8fe5ec07fdf9c9047727ba440dac530e6d391e9d",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -401,7 +403,9 @@
         "generic": 0,
         "meta": 0
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07",
+      "editorial_source_commit": "77542d5da6c3ea7869c9288ed9b860ca1d20060b"
     },
     {
       "path": "AI_SalesMarketing/1-5_new_revenue_models.md",
@@ -497,15 +501,15 @@
   "schedule_status": "cancelled_manual",
   "scope": "30 synthesis reports only; case/evidence/guide/history/seed files excluded",
   "last_batch": {
-    "started_from": "ea415810748b7952fd1bd8a54dfa8d9524375b98",
+    "started_from": "c1ae65564942c4da6d31cc647d5dbbbbb75bf175",
     "documents": [
-      "AI_SalesMarketing/1-1_customer_acquisition.md",
-      "AI_SalesMarketing/1-2_conversion.md"
+      "AI_SalesMarketing/1-3_order_value_mix.md",
+      "AI_SalesMarketing/1-4_retention_ltv.md"
     ],
     "validation": "passed",
     "completed_at": "2026-10-07",
     "mode": "manual_editorial",
-    "content_commit": "ee91484e9026f2ded02101d8b55e662869544027"
+    "content_commit": "77542d5da6c3ea7869c9288ed9b860ca1d20060b"
   },
   "execution_mode": "manual",
   "automation_cancelled_at": "2026-10-07",
@@ -518,14 +522,14 @@
     "site_deployment": "pending"
   },
   "sales_editorial": {
-    "round_completed": 1,
+    "round_completed": 2,
     "total_rounds": 5,
-    "completed_reports": 2,
-    "remaining_reports": 8,
+    "completed_reports": 4,
+    "remaining_reports": 6,
     "next_documents": [
-      "AI_SalesMarketing/1-3_order_value_mix.md",
-      "AI_SalesMarketing/1-4_retention_ltv.md"
+      "AI_SalesMarketing/1-5_new_revenue_models.md",
+      "AI_SalesMarketing/2-1_marketing_cost.md"
     ],
-    "source_commit": "ee91484e9026f2ded02101d8b55e662869544027"
+    "source_commit": "77542d5da6c3ea7869c9288ed9b860ca1d20060b"
   }
 }
