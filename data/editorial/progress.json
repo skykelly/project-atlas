@@ -342,7 +342,7 @@
     {
       "path": "AI_SalesMarketing/1-1_customer_acquisition.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "9cd18434efb5aed1b770ac2509e7e943b445f89c",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -352,12 +352,14 @@
         "generic": 3,
         "meta": 0
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07",
+      "editorial_source_commit": "ee91484e9026f2ded02101d8b55e662869544027"
     },
     {
       "path": "AI_SalesMarketing/1-2_conversion.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "b964280c3dca8e05912e320cc7dd973a6b6444d1",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -367,7 +369,9 @@
         "generic": 2,
         "meta": 0
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07",
+      "editorial_source_commit": "ee91484e9026f2ded02101d8b55e662869544027"
     },
     {
       "path": "AI_SalesMarketing/1-3_order_value_mix.md",
@@ -493,16 +497,15 @@
   "schedule_status": "cancelled_manual",
   "scope": "30 synthesis reports only; case/evidence/guide/history/seed files excluded",
   "last_batch": {
-    "started_from": "e67ca7a800e53aa6422e5a3abbe749cdabe64bd9",
+    "started_from": "ea415810748b7952fd1bd8a54dfa8d9524375b98",
     "documents": [
-      "AI_IndustryTrend/I-5_enterprise_ax.md",
-      "AI_IndustryTrend/I-6_infrastructure_deployment.md",
-      "AI_IndustryTrend/I-7_operations_trust_governance.md"
+      "AI_SalesMarketing/1-1_customer_acquisition.md",
+      "AI_SalesMarketing/1-2_conversion.md"
     ],
     "validation": "passed",
     "completed_at": "2026-10-07",
-    "mode": "manual_research_and_editorial",
-    "content_commit": "97b19bb1b4453a9a9b17d5130c30a055641bc72d"
+    "mode": "manual_editorial",
+    "content_commit": "ee91484e9026f2ded02101d8b55e662869544027"
   },
   "execution_mode": "manual",
   "automation_cancelled_at": "2026-10-07",
@@ -513,5 +516,16 @@
     "evidence_documents": 63,
     "source_commit": "97b19bb1b4453a9a9b17d5130c30a055641bc72d",
     "site_deployment": "pending"
+  },
+  "sales_editorial": {
+    "round_completed": 1,
+    "total_rounds": 5,
+    "completed_reports": 2,
+    "remaining_reports": 8,
+    "next_documents": [
+      "AI_SalesMarketing/1-3_order_value_mix.md",
+      "AI_SalesMarketing/1-4_retention_ltv.md"
+    ],
+    "source_commit": "ee91484e9026f2ded02101d8b55e662869544027"
   }
 }
