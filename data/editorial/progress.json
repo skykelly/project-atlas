@@ -478,7 +478,7 @@
     {
       "path": "AI_SalesMarketing/2-4_decision_execution.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "d780892669dd1988ffe8e6523ef6dcbe12fea18b",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -488,12 +488,14 @@
         "generic": 1,
         "meta": 0
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07",
+      "editorial_source_commit": "665591285152bc2dcd1216ce377d5e93cdcefbf2"
     },
     {
       "path": "AI_SalesMarketing/2-5_risk_quality.md",
       "kind": "synthesis",
-      "status": "pending",
+      "status": "completed",
       "baseline_blob_sha": "70a38b51b649d6735977bbfcedc87d30ab0a5c07",
       "baseline_commit": "bf413be5ecad917eaa22c3ebf9c9ba7ae6960e69",
       "diagnostic": {
@@ -503,21 +505,23 @@
         "generic": 0,
         "meta": 0
       },
-      "validation": null
+      "validation": "passed",
+      "edited_at": "2026-10-07",
+      "editorial_source_commit": "665591285152bc2dcd1216ce377d5e93cdcefbf2"
     }
   ],
   "schedule_status": "cancelled_manual",
   "scope": "30 synthesis reports only; case/evidence/guide/history/seed files excluded",
   "last_batch": {
-    "started_from": "f959e5d36b9d8c44fd26d0b9829dcd5aad3ea617",
+    "started_from": "7e83565cd94672ad4b213680ac0e1caea75bd344",
     "documents": [
-      "AI_SalesMarketing/2-2_sales_cost.md",
-      "AI_SalesMarketing/2-3_customer_care_cost.md"
+      "AI_SalesMarketing/2-4_decision_execution.md",
+      "AI_SalesMarketing/2-5_risk_quality.md"
     ],
     "validation": "passed",
     "completed_at": "2026-10-07",
     "mode": "manual_editorial",
-    "content_commit": "3ee376735bfe6f33d4674caec03529f58137abfc"
+    "content_commit": "665591285152bc2dcd1216ce377d5e93cdcefbf2"
   },
   "execution_mode": "manual",
   "automation_cancelled_at": "2026-10-07",
@@ -530,14 +534,17 @@
     "site_deployment": "pending"
   },
   "sales_editorial": {
-    "round_completed": 4,
+    "round_completed": 5,
     "total_rounds": 5,
-    "completed_reports": 8,
-    "remaining_reports": 2,
-    "next_documents": [
-      "AI_SalesMarketing/2-4_decision_execution.md",
-      "AI_SalesMarketing/2-5_risk_quality.md"
-    ],
-    "source_commit": "3ee376735bfe6f33d4674caec03529f58137abfc"
+    "completed_reports": 10,
+    "remaining_reports": 0,
+    "next_documents": [],
+    "source_commit": "665591285152bc2dcd1216ce377d5e93cdcefbf2",
+    "review": {
+      "status": "passed",
+      "scope": "Sales 10 relative links and contrast expressions; pair preservation and semantic reviews per round",
+      "reviewed_at": "2026-10-07"
+    },
+    "site_status": "pending"
   }
 }
